@@ -4,14 +4,7 @@
  * stateless (topic + level in, lesson out), which keeps the app LGPD/GDPR safe.
  */
 
-export interface LessonModule {
-  topic: string;
-  level: string;
-  intro: string;
-  flashcards: { front: string; back: string }[];
-  quiz: { question: string; options: string[]; answerIndex: number; explanation: string }[];
-  cheatSheet: { heading: string; points: string[] }[];
-}
+import type { LessonModule } from "./lesson-types";
 
 const SCHEMA = {
   type: "object",

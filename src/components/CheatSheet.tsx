@@ -1,5 +1,5 @@
 import { Dot } from "lucide-react";
-import type { LessonModule } from "@/lib/generate.server";
+import type { LessonModule } from "@/lib/lesson-types";
 
 /** Condensed reference guide for the current topic. */
 export function CheatSheet({ sections }: { sections: LessonModule["cheatSheet"] }) {

@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { ChevronLeft, ChevronRight, RotateCcw } from "lucide-react";
 import { Button } from "@/components/ui/button";
-import type { LessonModule } from "@/lib/generate.server";
+import type { LessonModule } from "@/lib/lesson-types";
 
 /** Swipeable flashcard deck with a 3D flip animation. */
 export function Flashcards({

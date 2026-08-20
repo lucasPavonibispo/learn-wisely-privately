@@ -2,7 +2,7 @@ import { useState } from "react";
 import { Check, X, Trophy } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Progress } from "@/components/ui/progress";
-import type { LessonModule } from "@/lib/generate.server";
+import type { LessonModule } from "@/lib/lesson-types";
 
 /** Multiple-choice quiz with instant feedback and explanations. */
 export function Quiz({
