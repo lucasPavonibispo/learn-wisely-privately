@@ -93,7 +93,7 @@ Include: a 1-2 sentence intro, exactly 6 flashcards (front = short prompt, back 
   if (!res.ok) throw new Error(`AI request failed (${res.status})`);
 
   const json = (await res.json()) as { choices: { message: { content: string } }[] };
-  const parsed = JSON.parse(json.choices[0].message.content) as Omit<
+  const parsed = JSON.parse(json.choices?.[0]?.message?.content ?? "{}") as Omit<
     LessonModule,
     "topic" | "level"
   >;
