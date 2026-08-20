@@ -1,0 +1,15 @@
+{
+  "name": "MicroLearn — AI Micro-Learning",
+  "short_name": "MicroLearn",
+  "description": "Learn any subject in minutes with AI flashcards, quizzes and cheat sheets. Private by design.",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "background_color": "#12161d",
+  "theme_color": "#12161d",
+  "icons": [
+    { "src": "/icons/icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any" },
+    { "src": "/icons/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any" },
+    { "src": "/icons/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+  ]
+}
